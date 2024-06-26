@@ -1,0 +1,616 @@
+
+<!DOCTYPE html>
+<html>
+ 
+<head>
+  <meta charset="utf-8">
+  <title>Hindi Song</title>
+  <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7AphJFjyYX0jzKA9jYEsXVU2LwtsroXGNmw&usqp=CAU" type="image/x-icon" />
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="mediaelement\src\css\mediaelementplayer.css">
+  <script src="mediaelement\mediaelement-and-player.min.js"></script>
+
+  <!-- nav css -->
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/song-cards.css">
+
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+
+ <body>
+
+    <body>
+        <div>
+          <br>
+          <!-- <hr style="width: 50%;"> -->
+        </div>
+        <header>
+          <h1> <a href="index.html" style="text-decoration: none;">
+            ⪓฿hu𝕧i⪔
+          </a></h1>
+          <link rel="icon"
+            href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRegV_uFOSJkmq6WvrOY9FliyV_dHMyuossOA&usqp=CAU"
+            type="image/x-icon" />
+      
+            <nav>
+              <ul>
+        
+                <nav>
+                  <ul>
+        
+                    <li><a href="Hindi.html"  class="listHome">Hindi song </a> </li>
+                    <!-- target blank means open link in new tab.  -->
+        
+        
+                    <li><a href="Marathi.html"  class="listHome">Marathi song </a> </li>
+                    <!-- target blank means open link in new tab.  -->
+        
+                    <li><a href="English.html" id="punjabiSongs" class="listHome">English song </a> </li>
+                    <!-- target blank means open link in new tab.  -->
+        
+                    
+                    <li><a href="Punjabi.html"  class="listHome">Punjabi song </a> </li>
+                    <!-- target blank means open link in new tab.  -->
+        
+                    <!-- Search bar -->
+                    <li>
+                      <input type="text" id="searchInput" placeholder="Search music...">
+                     
+                    </li>
+        
+                  </ul>
+                </nav>
+                <!-- <li><a href="#">Marathi Song</a>  ♪ </li> -->
+                <!-- <li><a href="#">Punjabi Song</a>   ♪ </li> -->
+                <!-- <li><a href="#">Podcast</a></li> -->
+              </ul>
+            </nav>
+        </header>
+      
+      
+      
+        <main>
+          <div>
+            <hr style="width: 80%;">
+          </div>
+          <section class="song-cards">
+      
+            <ul class="ulClass" id="musicList">
+      
+      
+    
+              <!-- Mann Mera-->
+      
+              <li>
+                <figure data-title=" Mann Mera" data-path="Music/Mann Mera.mp3">
+                  <div class="song-container">
+                    <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b273463a034120af9fe5280ef46c" alt="Song 1">
+                    <div class="song-details">
+                      <figcaption> Mann Mera</figcaption>
+                      <p>Gajendra Verma</p>
+                    </div>
+                  </div>
+                </figure>
+              </li>
+
+
+
+              <!-- EK DIN PYAAR -->
+      
+              <li>
+                <figure data-title="EK DIN PYAAR " data-path="Music/EK DIN PYAAR.mp3">
+                  <div class="song-container">
+                    <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b273cf530bc4a0f81c713bca0da1" alt="Song 1">
+                    <div class="song-details">
+                      <figcaption>EK DIN PYAAR </figcaption>
+                      <p>Mc Stan</p>
+                    </div>
+                  </div>
+                </figure>
+              </li>
+
+
+            
+              <!-- Phir Bhi Tumko -->
+      
+              <li>
+                <figure data-title="Phir Bhi Tumko" data-path="Music/Phir Bhi Tumko.mp3">
+                  <div class="song-container">
+                    <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b273ba3f6c327832f97378d44183" alt="Song 1">
+                    <div class="song-details">
+                      <figcaption>Phir Bhi Tumko</figcaption>
+                      <p>Arijit Singh</p>
+                    </div>
+                  </div>
+                </figure>
+              </li>
+
+
+               
+              <!-- Apna Bana Le -->
+      
+              <li>
+                <figure data-title="Apna Bana Le" data-path="Music/Apna Bana Le.mp3">
+                  <div class="song-container">
+                    <img class="thumbnail" src="https://i.scdn.co/image/ab67616d00001e0282a60b8f529feb30dfc00543" alt="Song 1">
+                    <div class="song-details">
+                      <figcaption>Apna Bana Le</figcaption>
+                      <p>Arijit Singh</p>
+                    </div>
+                  </div>
+                </figure>
+              </li>
+
+              <!-- Maay Bhavani-->
+      
+              <li>
+                <figure data-title="Maay Bhavani" data-path="Music/Maay Bhavani.mp3">
+                  <div class="song-container">
+                    <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b273e80780de66ba8da2ffe2de1a" alt="Song 1">
+                    <div class="song-details">
+                      <figcaption>Maay Bhavani</figcaption>
+                      <p>Sukhwinder</p>
+                    </div>
+                  </div>
+                </figure>
+              </li>
+
+
+                 <!-- Agar Tum Saath-->
+      
+                 <li>
+                  <figure data-title="Agar Tum Saath " data-path="Music/Agar Tum Saath.mp3">
+                    <div class="song-container">
+                      <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b273da50894e074ecd5ce61de0a1" alt="Song 1">
+                      <div class="song-details">
+                        <figcaption>Agar Tum Saath</figcaption>
+                        <p>Arijit Singh</p>
+                      </div>
+                    </div>
+                  </figure>
+                </li>
+
+                   
+              <!--Tum Hi Aana -->
+      
+              <li>
+                <figure data-title="Tum Hi Aana" data-path="Music/Tum Hi Aana.mp3">
+                  <div class="song-container">
+                    <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b2736539071e0f1833190a491d4d" alt="Song 1">
+                    <div class="song-details">
+                      <figcaption>Tum Hi Aana</figcaption>
+                      <p> Sidharth M</p>
+                    </div>
+                  </div>
+                </figure>
+              </li>
+
+                 <!-- Tum Hi Ho-->
+      
+                 <li>
+                  <figure data-title="Tum Hi Ho" data-path="Music/Tum Hi Ho.mp3">
+                    <div class="song-container">
+                      <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b273348468c203278d510f0cbc5a" alt="Song 1">
+                      <div class="song-details">
+                        <figcaption>Tum Hi Ho</figcaption>
+                        <p> Arijit Singh</p>
+                      </div>
+                    </div>
+                  </figure>
+                </li>
+      
+      <!--Barsaat Ki Dhun-->
+      
+      <li>
+        <figure data-title="Barsaat Ki Dhun" data-path="Music/Barsaat Ki Dhun.mp3">
+          <div class="song-container">
+            <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b273271cc4bcc2e583aac3131541" alt="Song 1">
+            <div class="song-details">
+              <figcaption>Barsaat Ki Dhun</figcaption>
+              <p> Jubin N</p>
+            </div>
+          </div>
+        </figure>
+      </li>
+
+      <!-- jhoome ja pathan-->
+      <li>
+        <figure data-title="jhoome ja pathan" data-path="Music/jhoome ja pathan.mp3">
+          <div class="song-container">
+            <img class="thumbnail" src="https://i.scdn.co/image/ab67616d00001e0213d49ed65bac50bf72524091" alt="Song 1">
+            <div class="song-details">
+              <figcaption>jhoome ja pathan</figcaption>
+              <p> Arijit Singh</p>
+            </div>
+          </div>
+        </figure>
+      </li>
+
+      <!-- Vaasate-->
+      <li>
+        <figure data-title="Vaasate" data-path="Music/Vaasate.mp3">
+          <div class="song-container">
+            <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b2738dce351c5e4a62c2ea2dd498" alt="Song 1">
+            <div class="song-details">
+              <figcaption>Vaasate</figcaption>
+              <p>Dhvani B, Nikhil D </p>
+            </div>
+          </div>
+        </figure>
+      </li>
+
+      <!-- Sun Raha Hai Na Tu -->
+      <li>
+        <figure data-title="Sun Raha Hai Na Tu " data-path="Music/Sunn Raha Hai Na Tu.mp3">
+          <div class="song-container">
+            <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b273cdac28c4b5b511f34e847baf" alt="Song 1">
+            <div class="song-details">
+              <figcaption>Sun Raha Hai Na Tu </figcaption>
+              <p>Shreya Ghoshal </p>
+            </div>
+          </div>
+        </figure>
+      </li>
+
+      <!--Bulleya  -->
+      <li>
+        <figure data-title="Bulleya  " data-path="Music/Bulleya.mp3">
+          <div class="song-container">
+            <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b273cfdf2cecda3a566ca424df3e" alt="Song 1">
+            <div class="song-details">
+              <figcaption>Bulleya  </figcaption>
+              <p>Amit M,Shilpa R</p>
+            </div>
+          </div>
+        </figure>
+      </li>
+
+        <!--KHAIRIYAT-->
+        <li>
+          <figure data-title="KHAIRIYAT" data-path="Music/KHAIRIYAT.mp3">
+            <div class="song-container">
+              <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b273eaa6b4bfb5954ee5a5a8ce9e" alt="Song 1">
+              <div class="song-details">
+                <figcaption>KHAIRIYAT</figcaption>
+                <p>Arijit Singh</p>
+              </div>
+            </div>
+          </figure>
+        </li>
+            
+      <!--KAUN TUJHE -->
+      <li>
+        <figure data-title="KAUN TUJHE " data-path="Music/KAUN TUJHE.mp3">
+          <div class="song-container">
+            <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b273fd244971869120f109bb2c36" alt="Song 1">
+            <div class="song-details">
+              <figcaption>KAUN TUJHE</figcaption>
+              <p>Armaan Malik</p>
+            </div>
+          </div>
+        </figure>
+      </li>
+      
+       <!--Ik Mulaqaat  -->
+       <li>
+        <figure data-title="Ik Mulaqaat " data-path="Music/Ik Mulaqaat.mp3">
+          <div class="song-container">
+            <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b27382cb3bc4dcd36a99c12ac1c1" alt="Song 1">
+            <div class="song-details">
+              <figcaption>Ik Mulaqaat </figcaption>
+              <p> Meet Bros Ft.</p>
+            </div>
+          </div>
+        </figure>
+      </li>
+
+
+      
+          <!--Mann Bharryaa-->
+          <li>
+            <figure data-title="Mann Bharryaa" data-path="Music/Mann Bharryaa.mp3">
+              <div class="song-container">
+                <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b273173a36a54fd89a650240ceac" alt="Song 1">
+                <div class="song-details">
+                  <figcaption>Mann Bharryaa</figcaption>
+                  <p>B Praak</p>
+                </div>
+              </div>
+            </figure>
+          </li>
+          
+
+          <!--Kesariya-->
+          <li>
+            <figure data-title="Kesariya" data-path="Music/Kesariya.mp3">
+              <div class="song-container">
+                <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b273c08202c50371e234d20caf62" alt="Song 1">
+                <div class="song-details">
+                  <figcaption>Kesariya</figcaption>
+                  <p>Arijit Singh</p>
+                </div>
+              </div>
+            </figure>
+          </li>
+
+
+            <!--Kuch Baatein-->
+            <li>
+              <figure data-title="Kuch Baatein" data-path="Music/Kuch Baatein.mp3">
+                <div class="song-container">
+                  <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b273d49446e2e8fa8752a4430faa" alt="Song 1">
+                  <div class="song-details">
+                    <figcaption>Kuch Baatein</figcaption>
+                    <p>Jubin N</p>
+                  </div>
+                </div>
+              </figure>
+            </li>
+  
+
+      <!-- basti ka hasti-->
+      <li>
+        <figure data-title="basti ka hasti" data-path="Music/basti ka hasti.mp3">
+          <div class="song-container">
+            <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b273a1cb9c60bf2838497ef6d726" alt="Song 1">
+            <div class="song-details">
+              <figcaption>basti ka hasti</figcaption>
+              <p> Mc Stan</p>
+            </div>
+          </div>
+        </figure>
+      </li>
+
+        <!--Dil Galti Kar Baitha  -->
+        <li>
+          <figure data-title="Dil Galti Kar Baitha " data-path="Music/Dil Galti Kar Baitha.mp3">
+            <div class="song-container">
+              <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b2739a0cfca9e6c069d1a53b962b" alt="Song 1">
+              <div class="song-details">
+                <figcaption>Dil Galti Kar Baitha </figcaption>
+                <p> Jubin N.</p>
+              </div>
+            </div>
+          </figure>
+        </li>
+
+        <!--Aaye Ho Meri -->
+        <li>
+          <figure data-title="Aaye Ho Meri " data-path="Music/Aaye Ho Meri.mp3">
+            <div class="song-container">
+              <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b273913724dc562548c81f927ba1" alt="Song 1">
+              <div class="song-details">
+                <figcaption> Aaye Ho Meri</figcaption>
+                <p>U Narayan</p>
+              </div>
+            </div>
+          </figure>
+        </li>
+
+        <!--Is Tarah Aashiqui Ka  -->
+        <li>
+          <figure data-title="Is Tarah Aashiqui Ka " data-path="Music/Is Tarah Aashiqui Ka.mp3">
+            <div class="song-container">
+              <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b273a987bb655cb167d9edb31ec6" alt="Song 1">
+              <div class="song-details">
+                <figcaption> Is Tarah Aashiqui Ka </figcaption>
+                <p>Kumar Sanu</p>
+              </div>
+            </div>
+          </figure>
+        </li>
+              
+     <!--Rabba Janda -->
+     <li>
+      <figure data-title="Rabba Janda" data-path="Music/Rabba Janda.mp3">
+        <div class="song-container">
+          <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b2739535cab86a6021e0ae102d28" alt="Song 1">
+          <div class="song-details">
+            <figcaption> Rabba Janda</figcaption>
+            <p> Jubin N.</p>
+          </div>
+        </div>
+      </figure>
+    </li>
+
+     <!--Tu Pyar Hai Kisi Aur Ka-->
+     <li>
+      <figure data-title="Tu Pyar Hai Kisi Aur Ka" data-path="Music/Tu Pyar Hai Kisi Aur Ka.mp3">
+        <div class="song-container">
+          <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b273b3ee4ced996bb955c1d7fc3f" alt="Song 1">
+          <div class="song-details">
+            <figcaption> Tu Pyar Hai Kisi Aur Ka</figcaption>
+            <p>A paudwal</p>
+          </div>
+        </div>
+      </figure>
+    </li>
+     
+
+      <!--Zara Sa  -->
+      <li>
+        <figure data-title="Zara Sa " data-path="Music/Zara Sa.mp3">
+          <div class="song-container">
+            <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b273727d531901c07a499498c544" alt="Song 1">
+            <div class="song-details">
+              <figcaption> Zara Sa </figcaption>
+              <p> Imaraan H.</p>
+            </div>
+          </div>
+        </figure>
+      </li>
+
+      <!--Nit Khair  -->
+      <li>
+        <figure data-title="Nit Khair " data-path="Music/Nit Khair.mp3">
+          <div class="song-container">
+            <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b2730578ec121be6d7e9fd057801" alt="Song 1">
+            <div class="song-details">
+              <figcaption> Nit Khair </figcaption>
+              <p> R Fateh</p>
+            </div>
+          </div>
+        </figure>
+      </li>
+
+         <!--Maan Meri Jaan -->
+         <li>
+          <figure data-title="Maan Meri Jaan " data-path="Music/Maan Meri Jaan.mp3">
+            <div class="song-container">
+              <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b27337f65266754703fd20d29854" alt="Song 1">
+              <div class="song-details">
+                <figcaption> Maan Meri Jaana </figcaption>
+                <p>King</p>
+              </div>
+            </div>
+          </figure>
+        </li>
+
+
+         <!--Pardesi Pardesi-->
+         <li>
+          <figure data-title="Pardesi Pardesi" data-path="Music/Pardesi Pardesi.mp3">
+            <div class="song-container">
+              <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b273913724dc562548c81f927ba1" alt="Song 1">
+              <div class="song-details">
+                <figcaption> Pardesi Pardesi </figcaption>
+                <p>U Narayan </p>
+              </div>
+            </div>
+          </figure>
+        </li>
+
+          <!--Ranjha-->
+          <li>
+            <figure data-title="Ranjha" data-path="Music/Ranjha.mp3">
+              <div class="song-container">
+                <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b27309426d9ae9d8d981735ebc5e" alt="Song 1">
+                <div class="song-details">
+                  <figcaption>Ranjha</figcaption>
+                  <p>B Praak, Jasleen R</p>
+                </div>
+              </div>
+            </figure>
+          </li>
+  
+          <!--Jaadugar-->
+          <li>
+            <figure data-title="Jaadugar" data-path="Music/Jaadugar.mp3">
+              <div class="song-container">
+                <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b273645534ae88946cd233736e02" alt="Song 1">
+                <div class="song-details">
+                  <figcaption>Jaadugar</figcaption>
+                  <p>Paradox</p>
+                </div>
+              </div>
+            </figure>
+          </li>
+  
+
+             <!-- daku -->
+              <li>
+                <!-- write path of song in data-path  and data-title as the song name which will appear on the bottom-->
+                <figure data-title="Daku" data-path="Music/daku.mp3">
+                  <div class="song-container">
+                    <!-- change image src according to your song  and alt text also Note: always take img from spotify-->
+                    <img  class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b273705ab6e67003b22644e62964"
+                      alt="Daku">
+                    <div class="song-details">
+                      <!-- Write Song Details -->
+                      <figcaption>Daku</figcaption>
+                      <p>Chani Nattan</p>
+                    </div>
+                  </div>
+                </figure>
+              </li>
+      
+              
+            </ul>
+      
+      
+          </section>
+      
+        </main>
+        <footer id="footer">
+      
+      
+      
+          <img src="" id="footerImage">
+      <div id="playerTitle"></div>
+      
+        
+          <audio id="audio-player" controls>
+            <source src="" type="audio/mpeg">
+            
+          </audio>
+          
+      
+        </footer>
+        <script>
+          const allSongs = document.getElementsByTagName("figure");
+      
+          const songPlayer = document.getElementById("audio-player");
+      
+          function playSong() {
+            const path = this.getAttribute("data-path");
+            songPlayer.src = path;
+            songPlayer.play();
+      
+            const title = this.getAttribute("data-title");
+            var bottomTitle =  document.getElementById("playerTitle")
+           bottomTitle.innerText = title;
+           bottomTitle.style.fontFamily = 'cursive';
+            var img = this.querySelector('.thumbnail');
+      var url = img.src;
+      console.log(url)
+      
+            document.getElementById("footerImage").src = url
+          }
+      
+          for (let i = 0; i < allSongs.length; i++) {
+            allSongs[i].addEventListener("click", playSong);
+          }
+      
+      
+        </script>
+      <script src="search.js"></script>
+      </body>
+      
+      </html>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+<hr>
+     <script src="script.js"></script>
+</body>
+</html>

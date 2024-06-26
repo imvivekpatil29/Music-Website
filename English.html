@@ -1,0 +1,467 @@
+
+<!DOCTYPE html>
+<html>
+ 
+<head>
+  <meta charset="utf-8">
+  <title>English Song</title>
+  <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7AphJFjyYX0jzKA9jYEsXVU2LwtsroXGNmw&usqp=CAU" type="image/x-icon" />
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="mediaelement\src\css\mediaelementplayer.css">
+  <script src="mediaelement\mediaelement-and-player.min.js"></script>
+
+  <!-- nav css -->
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/song-cards.css">
+
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+
+ <body>
+
+    <body>
+        <div>
+          <br>
+          <!-- <hr style="width: 50%;"> -->
+        </div>
+        <header>
+          <!-- index in home page click the english song to play the english song-->
+            <h1> <a href="index.html" style="text-decoration: none;">
+              ⪓฿hu𝕧i⪔
+            </a></h1>
+            <link rel="icon"
+              href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRegV_uFOSJkmq6WvrOY9FliyV_dHMyuossOA&usqp=CAU"
+              type="image/x-icon" />
+        
+              <nav>
+                <ul>
+          
+                  <nav>
+                    <ul>
+          
+                      <li><a href="Hindi.html"  class="listHome">Hindi song </a> </li>
+                      <!-- target blank means open link in new tab.  -->
+          
+          
+                      <li><a href="Marathi.html"  class="listHome">Marathi song </a> </li>
+                      <!-- target blank means open link in new tab.  -->
+          
+                      <li><a href="English.html" id="punjabiSongs" class="listHome">English song </a> </li>
+                      <!-- target blank means open link in new tab.  -->
+          
+                      
+                      <li><a href="Punjabi.html"  class="listHome">Punjabi song </a> </li>
+                      <!-- target blank means open link in new tab.  -->
+          
+                      <!-- Search bar -->
+                      <li>
+                        <input type="text" id="searchInput" placeholder="Search music...">
+                       
+                      </li>
+          
+                    </ul>
+                  </nav>
+                  <!-- <li><a href="#">Marathi Song</a>  ♪ </li> -->
+                  <!-- <li><a href="#">Punjabi Song</a>   ♪ </li> -->
+                  <!-- <li><a href="#">Podcast</a></li> -->
+                </ul>
+              </nav>
+          </header>
+        
+      
+      
+        <main>
+          <div>
+            <hr style="width: 80%;">
+          </div>
+          <section class="song-cards">
+      
+            <ul class="ulClass" id="musicList">
+      
+      
+             <!--Panda-->
+             <li>
+                <figure data-title="Panda" data-path="Music/Panda.mp3">
+                <div class="song-container">
+                    <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b273ba61b2caa1d31939600bd3c8" alt="Song 1">
+                    <div class="song-details">
+                    <figcaption>Panda </figcaption>
+                    <p>Desiigner</p>
+                    </div>
+                </div>
+                </figure>
+
+
+                <!--WHOOPTY-->
+                <li>
+                    <figure data-title="WHOOPTY" data-path="Music/WHOOPTY.mp3">
+                    <div class="song-container">
+                        <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b2735038c2513329a3123b62923d" alt="Song 1">
+                        <div class="song-details">
+                        <figcaption>WHOOPTY</figcaption>
+                        <p>CJ</p>
+                        </div>
+                    </div>
+                    </figure>
+                </li>
+
+
+                 <!-- Bones -->
+
+        <li>
+            <!-- write path of song in data-path  and data-title as the song name which will appear on the bottom-->
+            <figure data-title="Bones" data-path="Music/bones.mp3">
+              <div class="song-container">
+                <!-- change image src according to your song  and alt text also Note: always take img from spotify-->
+                <img  class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b273813713582dcc508e7d5073c4"
+                  alt="Bones">
+                <div class="song-details">
+                  <!-- Write Song Details -->
+                  <figcaption>Bones</figcaption>
+                  <p>Imagine Dragons</p>
+                </div>
+              </div>
+            </figure>
+          </li>
+  
+  
+
+                <!--Darkside-->
+            <li>
+                <figure data-title="Darkside" data-path="Music/Darkside.mp3">
+                <div class="song-container">
+                    <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b273e01e9da93772e7cb0ed657ce" alt="Song 1">
+                    <div class="song-details">
+                    <figcaption>Darkside</figcaption>
+                    <p>Alan Walker</p>
+                    </div>
+                </div>
+                </figure>
+            </li>
+
+                <!--Faded-->
+            <li>
+                <figure data-title="Faded" data-path="Music/Faded.mp3">
+                <div class="song-container">
+                    <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b273c4d00cac55ae1b4598c9bc90" alt="Song 1">
+                    <div class="song-details">
+                    <figcaption>Faded</figcaption>
+                    <p>Alan Walker</p>
+                    </div>
+                </div>
+                </figure>
+            </li>
+
+                <!--On My Way-->
+            <li>
+                <figure data-title="On My Way" data-path="Music/On My Way.mp3">
+                <div class="song-container">
+                    <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b273d2aaf635815c265aa1ecdecc" alt="Song 1">
+                    <div class="song-details">
+                    <figcaption>On My Way</figcaption>
+                    <p>Alan Walker</p>
+                    </div>
+                </div>
+                </figure>
+            </li>
+  
+                <!--Headlight-->
+            <li>
+                <figure data-title="Headlight" data-path="Music/Headlight.mp3">
+                <div class="song-container">
+                    <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b273e4855f57cf9ffcf827fdd6e2" alt="Song 1">
+                    <div class="song-details">
+                    <figcaption>Headlight</figcaption>
+                    <p>Alok</p>
+                    </div>
+                </div>
+                </figure>
+            </li>
+
+                <!--Alone-->
+            <li>
+                <figure data-title="Alone" data-path="Music/Alone.mp3">
+                <div class="song-container">
+                    <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b273f00ade2f88d8223521bc7f76" alt="Song 1">
+                    <div class="song-details">
+                    <figcaption>Alone</figcaption>
+                    <p>Ava Max</p>
+                    </div>
+                </div>
+                </figure>
+            </li>
+
+                <!--Ignite-->
+            <li>
+                <figure data-title="Ignite" data-path="Music/Ignite.mp3">
+                <div class="song-container">
+                    <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b273eaee7835ad1cd0c435edd7cf" alt="Song 1">
+                    <div class="song-details">
+                    <figcaption>Ignite</figcaption>
+                    <p>Julie Bergan</p>
+                    </div>
+                </div>
+                </figure>
+            </li>
+  
+                <!--FRIENDS -->
+            <li>
+                <figure data-title="FRIENDS " data-path="Music/FRIENDS.mp3">
+                <div class="song-container">
+                    <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b273569f64493ca55cd96fdee412" alt="Song 1">
+                    <div class="song-details">
+                    <figcaption>FRIENDS </figcaption>
+                    <p>Anne-Marie</p>
+                    </div>
+                </div>
+                </figure>
+            </li>
+  
+                <!-- Baby-->
+            <li>
+                <figure data-title=" Baby" data-path="Music/Baby.mp3">
+                <div class="song-container">
+                    <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b2739707c3215a3410cf33eb7623" alt="Song 1">
+                    <div class="song-details">
+                    <figcaption> Baby </figcaption>
+                    <p>Justin Bieber</p>
+                    </div>
+                </div>
+                </figure>
+            </li>
+  
+                <!-- STAY-->
+            <li>
+                <figure data-title="STAY" data-path="Music/STAY.mp3">
+                <div class="song-container">
+                    <img class="thumbnail" src="https://i.scdn.co/image/ab67616d00001e0241e31d6ea1d493dd77933ee5" alt="Song 1">
+                    <div class="song-details">
+                    <figcaption>STAY</figcaption>
+                    <p>Justin Bieber</p>
+                    </div>
+                </div>
+                </figure>
+            </li>
+
+                <!--Let Me Love You -->
+            <li>
+                <figure data-title="Let Me Love You " data-path="Music/Let Me Love You.mp3">
+                <div class="song-container">
+                    <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b273212d776c31027c511f0ee3bc" alt="Song 1">
+                    <div class="song-details">
+                    <figcaption>Let Me Love You </figcaption>
+                    <p>Dj Snake</p>
+                    </div>
+                </div>
+                </figure>
+            </li>
+
+                <!--Sorry-->
+            <li>
+                <figure data-title="Sorry" data-path="Music/Sorry.mp3">
+                <div class="song-container">
+                    <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b273cafb6618aeac7977afb815ce" alt="Song 1">
+                    <div class="song-details">
+                    <figcaption>Sorry </figcaption>
+                    <p>Justin Bieber</p>
+                    </div>
+                </div>
+                </figure>
+
+                <!--Peaches-->
+            <li>
+                <figure data-title="Peaches" data-path="Music/Peaches.mp3">
+                <div class="song-container">
+                    <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b273e6f407c7f3a0ec98845e4431" alt="Song 1">
+                    <div class="song-details">
+                    <figcaption>Peaches</figcaption>
+                    <p>Daniel Caesar</p>
+                    </div>
+                </div>
+                </figure>
+            </li>
+  
+                <!--Stereo Love-->
+            <li>
+                <figure data-title="Stereo Love" data-path="Music/Stereo Love.mp3">
+                <div class="song-container">
+                    <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b27363930afae902cae1ca1c65b9" alt="Song 1">
+                    <div class="song-details">
+                    <figcaption>Stereo Love</figcaption>
+                    <p>Edward Maya</p>
+                    </div>
+                </div>
+                </figure>
+            </li>
+
+
+             <!-- I Like Me Better -->
+        <li>
+            <figure data-title="I Like Me Better" data-path="Music/I Like Me Better.mp3">
+              <div class="song-container">
+                <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b273fab48816b625e2a77a732400"
+                  alt="Elevated">
+                <div class="song-details">
+                  <figcaption>I Like Me Better</figcaption>
+                  <p>Lauv</p>
+                </div>
+              </div>
+            </figure>
+          </li>
+
+                <!--SINDUSTRY BABY-->
+            <li>
+                <figure data-title="INDUSTRY BABY " data-path="Music/INDUSTRY BABY.mp3">
+                <div class="song-container">
+                    <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b273ba26678947112dff3c3158bf" alt="Song 1">
+                    <div class="song-details">
+                    <figcaption>INDUSTRY BABY</figcaption>
+                    <p>Lil Nas</p>
+                    </div>
+                </div>
+                </figure>
+            </li>
+
+                <!--Life Ain't Fair-->
+            <li>
+                <figure data-title="Life Ain't Fair " data-path="Music/Life Ain't Fair.mp3">
+                <div class="song-container">
+                    <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b2733260986434b31631de45e0a6" alt="Song 1">
+                    <div class="song-details">
+                    <figcaption>Life Ain't Fair</figcaption>
+                    <p>King Manyara</p>
+                    </div>
+                </div>
+                </figure>
+            </li>
+
+                <!-- On The Floor-->
+            <li>
+                <figure data-title=" On The Floor" data-path="Music/On The Floor.mp3">
+                <div class="song-container">
+                    <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b2735c7fdd07d99c156401073aaa" alt="Song 1">
+                    <div class="song-details">
+                    <figcaption> On The Floor</figcaption>
+                    <p>Jennifer L</p>
+                    </div>
+                </div>
+                </figure>
+            </li>
+
+                <!--changes-->
+            <li>
+                <figure data-title="changes" data-path="Music/changes.mp3">
+                <div class="song-container">
+                    <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b27383612f77200c9b1575be981a" alt="Song 1">
+                    <div class="song-details">
+                    <figcaption>Changes</figcaption>
+                    <p>XXXTEN</p>
+                    </div>
+                </div>
+                </figure>
+            </li>
+  
+                <!--lovely-->
+            <li>
+                <figure data-title="clovely" data-path="Music/lovely.mp3">
+                <div class="song-container">
+                    <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b2738a3f0a3ca7929dea23cd274c" alt="Song 1">
+                    <div class="song-details">
+                    <figcaption>lovely</figcaption>
+                    <p>Billie E</p>
+                    </div>
+                </div>
+                </figure>
+            </li>
+  
+ <!--Pardesi Pardesi-->
+ <li>
+  <figure data-title="Pardesi Pardesi" data-path="Music/Pardesi Pardesi.mp3">
+    <div class="song-container">
+      <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b273913724dc562548c81f927ba1" alt="Song 1">
+      <div class="song-details">
+        <figcaption> Pardesi Pardesi </figcaption>
+        <p>U Narayan </p>
+      </div>
+    </div>
+  </figure>
+</li>
+              
+            </ul>
+      
+      
+          </section>
+      
+        </main>
+        <footer id="footer">
+      
+      
+      
+          <img src="" id="footerImage">
+      <div id="playerTitle"></div>
+      
+        
+          <audio id="audio-player" controls>
+            <source src="" type="audio/mpeg">
+            
+          </audio>
+          
+      
+        </footer>
+        <script>
+          const allSongs = document.getElementsByTagName("figure");
+      
+          const songPlayer = document.getElementById("audio-player");
+      
+          function playSong() {
+            const path = this.getAttribute("data-path");
+            songPlayer.src = path;
+            songPlayer.play();
+      
+            const title = this.getAttribute("data-title");
+            var bottomTitle =  document.getElementById("playerTitle")
+           bottomTitle.innerText = title;
+           bottomTitle.style.fontFamily = 'cursive';
+            var img = this.querySelector('.thumbnail');
+      var url = img.src;
+      console.log(url)
+      
+            document.getElementById("footerImage").src = url
+          }
+      
+          for (let i = 0; i < allSongs.length; i++) {
+            allSongs[i].addEventListener("click", playSong);
+          }
+      
+      
+        </script>
+      <script src="search.js"></script>
+      </body>
+      
+      </html>
+
+
+    
+<hr>
+     <script src="script.js"></script>
+</body>
+</html>

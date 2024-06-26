@@ -1,0 +1,719 @@
+
+<!DOCTYPE html>
+<html>
+ 
+<head>
+  <meta charset="utf-8">
+  <title>Punjabi Song</title>
+  <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7AphJFjyYX0jzKA9jYEsXVU2LwtsroXGNmw&usqp=CAU" type="image/x-icon" />
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="mediaelement\src\css\mediaelementplayer.css">
+  <script src="mediaelement\mediaelement-and-player.min.js"></script>
+
+  <!-- nav css -->
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/song-cards.css">
+
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+
+ <body>
+
+    <body>
+        <div>
+          <br>
+          <!-- <hr style="width: 50%;"> -->
+        </div>
+        <header>
+          <h1> <a href="index.html" style="text-decoration: none;">
+            ⪓฿hu𝕧i⪔
+          </a></h1>
+          <link rel="icon"
+            href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRegV_uFOSJkmq6WvrOY9FliyV_dHMyuossOA&usqp=CAU"
+            type="image/x-icon" />
+      
+            <nav>
+              <ul>
+    
+                <li><a href="Hindi.html"  class="listHome">Hindi song </a> </li>
+                <!-- target blank means open link in new tab.  -->
+    
+    
+                <li><a href="Marathi.html"  class="listHome">Marathi song </a> </li>
+                <!-- target blank means open link in new tab.  -->
+    
+                <li><a href="English.html" id="punjabiSongs" class="listHome">English song </a> </li>
+                <!-- target blank means open link in new tab.  -->
+    
+                
+                <li><a href="Punjabi.html"  class="listHome">Punjabi song </a> </li>
+                <!-- target blank means open link in new tab.  -->
+    
+                <!-- Search bar -->
+                <li>
+                  <input type="text" id="searchInput" placeholder="Search music...">
+                 
+                </li>
+    
+              </ul>
+            </nav>
+        </header>
+      
+      
+      
+        <main>
+          <div>
+            <hr style="width: 80%;">
+          </div>
+          <section class="song-cards">
+      
+            <ul class="ulClass" id="musicList">
+      
+      
+               <!--Daru Badnaam -->
+      <li>
+        <figure data-title="Daru Badnaam " data-path="Music/Daru Badnaam.mp3">
+          <div class="song-container">
+            <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b273375bf11209444fdd2099be86" alt="Elevated">
+            <div class="song-details">
+              <figcaption>Daru Badnaam</figcaption>
+              <p>K K,P Singh</p>
+            </div>
+          </div>
+        </figure>
+      </li>
+
+
+       <!-- daku -->
+       <li>
+        <!-- write path of song in data-path  and data-title as the song name which will appear on the bottom-->
+        <figure data-title="Daku" data-path="Music/daku.mp3">
+          <div class="song-container">
+            <!-- change image src according to your song  and alt text also Note: always take img from spotify-->
+            <img  class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b273705ab6e67003b22644e62964"
+              alt="Daku">
+            <div class="song-details">
+              <!-- Write Song Details -->
+              <figcaption>Daku</figcaption>
+              <p>Chani Nattan</p>
+            </div>
+          </div>
+        </figure>
+      </li>
+
+     <!-- Elevated -->
+      <li>
+        <figure data-title="Elevated" data-path="Music/elevated.mp3">
+          <div class="song-container">
+            <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b27303712fdb8fc3156aee9f85af" alt="Elevated">
+            <div class="song-details">
+              <figcaption>Elevated</figcaption>
+              <p>Shubh</p>
+            </div>
+          </div>
+        </figure>
+      </li>
+      
+     <!-- No Love -->
+      <li>
+        <figure data-title="No Love" data-path="Music/No Love.mp3">
+          <div class="song-container">
+            <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b2732a46046339bd779f95a8cf8b" alt="Elevated">
+            <div class="song-details">
+              <figcaption>No Love</figcaption>
+              <p>Shubh</p>
+            </div>
+          </div>
+        </figure>
+      </li>
+ 
+      
+     <!-- Excuses -->
+      <li>
+        <figure data-title="Excuses " data-path="Music/Excuses.mp3">
+          <div class="song-container">
+            <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b2735b74e703d6ffb2ea16860c86" alt="Elevated">
+            <div class="song-details">
+              <figcaption>Excuses </figcaption>
+              <p>AP D,G Gill</p>
+            </div>
+          </div>
+        </figure>
+      </li>
+ 
+
+          <!--Wakh Ho Jana-->
+          <li>
+            <figure data-title="Wakh Ho Jana" data-path="Music/Wakh Ho Jana.mp3">
+              <div class="song-container">
+                <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b27361de79cc1467860290bc2a0b" alt="Elevated">
+                <div class="song-details">
+                  <figcaption>Wakh Ho Jana</figcaption>
+                  <p>Gurnam B</p>
+                </div>
+              </div>
+            </figure>
+          </li>
+
+
+          <!--OOPS-->
+          <li>
+            <figure data-title="WOOPS" data-path="Music/OOPS.mp3">
+              <div class="song-container">
+                <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b27365234917c3dc6c5714367508" alt="Elevated">
+                <div class="song-details">
+                  <figcaption>OOPS</figcaption>
+                  <p>King</p>
+                </div>
+              </div>
+            </figure>
+          </li>
+
+          <!--Pata Chalgea-->
+          <li>
+            <figure data-title="Pata Chalgea" data-path="Music/Pata Chalgea.mp3">
+              <div class="song-container">
+                <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b2730268c8f23e532c8d51bc2602" alt="Elevated">
+                <div class="song-details">
+                  <figcaption>Pata Chalgea</figcaption>
+                  <p>Imaran Khan</p>
+                </div>
+              </div>
+            </figure>
+          </li>
+
+
+     <!--THE LAST RIDE-->
+      <li>
+        <figure data-title="THE LAST RIDE" data-path="Music/THE LAST RIDE.mp3">
+          <div class="song-container">
+            <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b27374568d5f6ec286a36613a517" alt="Elevated">
+            <div class="song-details">
+              <figcaption>THE LAST RIDE</figcaption>
+              <p>Sidhu</p>
+            </div>
+          </div>
+        </figure>
+      </li>
+ 
+     <!--295 -->
+      <li>
+        <figure data-title="295 " data-path="Music/295.mp3">
+          <div class="song-container">
+            <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b27311066c435f7d87041ae2dc3b" alt="Elevated">
+            <div class="song-details">
+              <figcaption>295 </figcaption>
+              <p>Sidhu M</p>
+            </div>
+          </div>
+        </figure>
+      </li>
+ 
+     <!--Bijlee Bijlee -->
+      <li>
+        <figure data-title="Bijlee Bijlee " data-path="Music/Bijlee Bijlee.mp3">
+          <div class="song-container">
+            <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b273b5a26cb2c2ef2fa440baffb0" alt="Elevated">
+            <div class="song-details">
+              <figcaption>Bijlee Bijlee </figcaption>
+              <p>Harrdy S</p>
+            </div>
+          </div>
+        </figure>
+      </li>
+
+     <!--KHAAB-->
+      <li>
+        <figure data-title="KHAAB" data-path="Music/KHAAB.mp3">
+          <div class="song-container">
+            <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b2736436b39d73ac8411abc9b3ee" alt="Elevated">
+            <div class="song-details">
+              <figcaption>KHAAB</figcaption>
+              <p>P Verma</p>
+            </div>
+          </div>
+        </figure>
+      </li>
+
+     <!--8 Parche -->
+      <li>
+        <figure data-title="8 Parche " data-path="Music/8 Parche.mp3">
+          <div class="song-container">
+            <img class="thumbnail" src="https://i.scdn.co/image/ab67616d00001e02125768b97cdb97635c5f5b68" alt="Elevated">
+            <div class="song-details">
+              <figcaption>8 Parche </figcaption>
+              <p>Baani S,Gur S</p>
+            </div> 
+          </div>
+        </figure>
+      </li>
+
+     <!--Brown Munde-->
+      <li>
+        <figure data-title="Brown Munde" data-path="Music/Brown Munde.mp3">
+          <div class="song-container">
+            <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b273d9a129c4a656a55afff2ca02" alt="Elevated">
+            <div class="song-details">
+              <figcaption>Brown Munde</figcaption>
+              <p> AP,G GILL</p>
+            </div> 
+          </div>
+        </figure>
+      </li>
+ 
+
+     <!--Aaja We Mahiya-->
+      <li>
+        <figure data-title="Aaja We Mahiya" data-path="Music/Aaja We Mahiya.mp3">
+          <div class="song-container">
+            <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b2730ac4a3584ddda0528af9ec17" alt="Elevated">
+            <div class="song-details">
+              <figcaption>Aaja We Mahiya</figcaption>
+              <p>Imran Khan</p>
+            </div> 
+          </div>
+        </figure>
+      </li>
+
+     <!-- Brown Rang-->
+      <li>
+        <figure data-title="Brown Rang" data-path="Music/Brown Rang.mp3">
+          <div class="song-container">
+            <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b2730aaa184e0e060521fc28a605" alt="Elevated">
+            <div class="song-details">
+              <figcaption>Brown Rang</figcaption>
+              <p>YO YO H</p>
+            </div> 
+          </div>
+        </figure>
+      </li>
+
+
+     <!-- Chann Sitare-->
+      <li>
+        <figure data-title="Chann Sitare" data-path="Music/Chann Sitare.mp3">
+          <div class="song-container">
+            <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b27376fd47f0550439f283933dcd" alt="Elevated">
+            <div class="song-details">
+              <figcaption>Chann Sitare</figcaption>
+              <p>S Singh</p>
+            </div> 
+          </div>
+        </figure>
+      </li>
+ 
+     <!-- Same Beef-->
+     
+      <li>
+        <figure data-title="Same Beef" data-path="Music/Same Beef.mp3">
+          <div class="song-container">
+            <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b273d6181999e3c1c1bb525f9989" alt="Elevated">
+            <div class="song-details">
+              <figcaption>Same Beef</figcaption>
+              <p>Sidhu M</p>
+            </div> 
+          </div>
+        </figure>
+      </li>
+ 
+
+      
+     <!--Moon Rise-->
+     
+     <li>
+      <figure data-title="Moon Rise" data-path="Music/Moon Rise.mp3">
+        <div class="song-container">
+          <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b2737bcb47bf66f6488ea9009fc5" alt="Elevated">
+          <div class="song-details">
+            <figcaption>Moon Rise</figcaption>
+            <p>Guru R</p>
+          </div> 
+        </div>
+      </figure>
+    </li>
+
+
+    
+     <!-- Mitti De Tibbe-->
+     
+     <li>
+      <figure data-title="Mitti De Tibbe" data-path="Music/Mitti De Tibbe.mp3">
+        <div class="song-container">
+          <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b2736d926189cd5113b4a31f73ea" alt="Elevated">
+          <div class="song-details">
+            <figcaption>Mitti De Tibbe</figcaption>
+            <p>KAKA</p>
+          </div> 
+        </div>
+      </figure>
+    </li>
+
+
+    
+     <!--LEVELS-->
+     
+     <li>
+      <figure data-title="LEVELS" data-path="Music/LEVELS.mp3">
+        <div class="song-container">
+          <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b273d6181999e3c1c1bb525f9989" alt="Elevated">
+          <div class="song-details">
+            <figcaption>LEVELS</figcaption>
+            <p>Sidhu M</p>
+          </div> 
+        </div>
+      </figure>
+    </li>
+
+
+    
+     <!--SAKHIYAAN-->
+     
+     <li>
+      <figure data-title="SAKHIYAAN" data-path="Music/SAKHIYAAN.mp3">
+        <div class="song-container">
+          <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b273e76efd39feba5fbbc8788dc8" alt="Elevated">
+          <div class="song-details">
+            <figcaption>SAKHIYAN</figcaption>
+            <p>Maninder B</p>
+          </div> 
+        </div>
+      </figure>
+    </li>
+
+
+    
+     <!-- Kina Chir-->
+     
+     <li>
+      <figure data-title="Kina Chir" data-path="Music/Kina Chir.mp3">
+        <div class="song-container">
+          <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b273fd983cf401180805b92fb386" alt="Elevated">
+          <div class="song-details">
+            <figcaption>Kina Chir</figcaption>
+            <p>The PropheC</p>
+          </div> 
+        </div>
+      </figure>
+    </li>
+
+
+
+    
+     <!-- Bapu Tere Karke-->
+     
+     <li>
+      <figure data-title="Bapu Tere Karke" data-path="Music/Bapu Tere Karke.mp3">
+        <div class="song-container">
+          <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b27390668b96d76da2a8ae809cc8" alt="Elevated">
+          <div class="song-details">
+            <figcaption>Bapu Tere Karke</figcaption>
+            <p>Amar S</p>
+          </div> 
+        </div>
+      </figure>
+    </li>
+
+
+
+    
+     <!-- Parshawan-->
+     
+     <li>
+      <figure data-title="Parshawan" data-path="Music/Parshawan.mp3">
+        <div class="song-container">
+          <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b273ee6f939c0231ee2c221ae343" alt="Elevated">
+          <div class="song-details">
+            <figcaption>Parshawan</figcaption>
+            <p>Harnoor</p>
+          </div> 
+        </div>
+      </figure>
+    </li>
+
+
+
+    
+     <!-- SAFAR -->
+     
+     <li>
+      <figure data-title="SAFAR" data-path="Music/SAFAR.mp3">
+        <div class="song-container">
+          <img class="thumbnail" src="https://i.scdn.co/image/ab67616d00001e028ad451f58ec0b54c7179c6ba" alt="Elevated">
+          <div class="song-details">
+            <figcaption>SAFAR </figcaption>
+            <p>Mix Singh</p>
+          </div> 
+        </div>
+      </figure>
+    </li>
+
+
+
+    
+     <!-- We Rollin-->
+     
+     <li>
+      <figure data-title="We Rollin" data-path="Music/We Rollin.mp3">
+        <div class="song-container">
+          <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b273d05cb0855dc35316da3d4036" alt="Elevated">
+          <div class="song-details">
+            <figcaption>We Rollin</figcaption>
+            <p>Shubh</p>
+          </div> 
+        </div>
+      </figure>
+    </li>
+
+
+
+    
+     <!-- All Black Full-->
+     
+     <li>
+      <figure data-title="All Black Full" data-path="Music/All Black Full.mp3">
+        <div class="song-container">
+          <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b273f863e8d53769bdfe3d65c003" alt="Elevated">
+          <div class="song-details">
+            <figcaption>SAll Black Full</figcaption>
+            <p>Sukhe</p>
+          </div> 
+        </div>
+      </figure>
+    </li>
+
+
+
+    
+     <!--ISHARE TERE-->
+     
+     <li>
+      <figure data-title="ISHARE TERE" data-path="Music/ISHARE TERE.mp3">
+        <div class="song-container">
+          <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b2732061c9c78a7b9247f8f69eb7" alt="Elevated">
+          <div class="song-details">
+            <figcaption>ISHARE TERE</figcaption>
+            <p>Guru R</p>
+          </div> 
+        </div>
+      </figure>
+    </li>
+
+
+
+    
+     <!-- 3 Peg-->
+     
+     <li>
+      <figure data-title="3 Peg" data-path="Music/3 Peg.mp3">
+        <div class="song-container">
+          <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b2738f79af3663d3ec19c9d8d7a5" alt="Elevated">
+          <div class="song-details">
+            <figcaption>3 Peg</figcaption>
+            <p>Mista Baaz</p>
+          </div> 
+        </div>
+      </figure>
+    </li>
+
+
+
+    
+     <!-- GOAT-->
+     
+     <li>
+      <figure data-title="GOAT" data-path="Music/GOAT.mp3">
+        <div class="song-container">
+          <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b27303a419f6c38e833713019eee" alt="Elevated">
+          <div class="song-details">
+            <figcaption>GOAT</figcaption>
+            <p>Sidhu M</p>
+          </div> 
+        </div>
+      </figure>
+    </li>
+
+
+
+    
+     <!-- LEGEND-->
+     
+     <li>
+      <figure data-title="LEGEND" data-path="Music/LEGEND.mp3">
+        <div class="song-container">
+          <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b273d041b26b5ba256f1bb883740" alt="Elevated">
+          <div class="song-details">
+            <figcaption>LEGEND</figcaption>
+            <p>Sidhu M</p>
+          </div> 
+        </div>
+      </figure>
+    </li>
+
+
+
+    
+     <!-- Waalian-->
+     
+     <li>
+      <figure data-title="Waalian" data-path="Music/Waalian.mp3">
+        <div class="song-container">
+          <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b27387cd4ffa98789f7a3bbf19ca" alt="Elevated">
+          <div class="song-details">
+            <figcaption>Waalian</figcaption>
+            <p>Harnoor</p>
+          </div> 
+        </div>
+      </figure>
+    </li>
+
+
+
+    
+     <!--Jhaanjar-->
+     
+     <li>
+      <figure data-title="Jhaanjar" data-path="Music/Jhaanjar.mp3">
+        <div class="song-container">
+          <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b273c025cd3ad127b2b5d9478ad0" alt="Elevated">
+          <div class="song-details">
+            <figcaption>Jhaanjar</figcaption>
+            <p>B Praak</p>
+          </div> 
+        </div>
+      </figure>
+    </li>
+
+
+    
+     <!-- Yaarr Ni Milyaa-->
+     
+     <li>
+      <figure data-title="Yaarr Ni Milyaa" data-path="Music/Yaarr Ni Milyaa.mp3">
+        <div class="song-container">
+          <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b273e460290c1f686e63c569614f" alt="Elevated">
+          <div class="song-details">
+            <figcaption>Yaarr Ni Milyaa</figcaption>
+            <p>Harrdy S</p>
+          </div> 
+        </div>
+      </figure>
+    </li>
+
+
+
+
+    
+     <!-- Todh-->
+     
+     <li>
+      <figure data-title="Todh" data-path="Music/Todh.mp3">
+        <div class="song-container">
+          <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b273656f1d019587fb2eca3c85a0" alt="Elevated">
+          <div class="song-details">
+            <figcaption>Todh</figcaption>
+            <p>P Narula </p>
+          </div> 
+        </div>
+      </figure>
+    </li>
+
+
+    
+     <!-- Pagol-->
+     
+     <li>
+      <figure data-title="Pagol" data-path="Music/Pagol.mp3">
+        <div class="song-container">
+          <img class="thumbnail" src="https://i.scdn.co/image/ab67616d0000b273d34bfc0d561cf43a32dc1232" alt="Elevated">
+          <div class="song-details">
+            <figcaption>Pagol</figcaption>
+            <p>Deep Jandu</p>
+          </div> 
+        </div>
+      </figure>
+    </li>
+
+
+
+    
+    
+
+              
+            </ul>
+      
+          </section>
+      
+        </main>
+        <footer id="footer">
+      
+      
+      
+          <img src="" id="footerImage">
+      <div id="playerTitle"></div>
+      
+        
+          <audio id="audio-player" controls>
+            <source src="" type="audio/mpeg">
+            
+          </audio>
+          
+      
+        </footer>
+        <script>
+          const allSongs = document.getElementsByTagName("figure");
+      
+          const songPlayer = document.getElementById("audio-player");
+      
+          function playSong() {
+            const path = this.getAttribute("data-path");
+            songPlayer.src = path;
+            songPlayer.play();
+      
+            const title = this.getAttribute("data-title");
+            var bottomTitle =  document.getElementById("playerTitle")
+           bottomTitle.innerText = title;
+           bottomTitle.style.fontFamily = 'cursive';
+            var img = this.querySelector('.thumbnail');
+      var url = img.src;
+      console.log(url)
+      
+            document.getElementById("footerImage").src = url
+          }
+      
+          for (let i = 0; i < allSongs.length; i++) {
+            allSongs[i].addEventListener("click", playSong);
+          }
+      
+      
+        </script>
+      
+      </body>
+      
+      </html>
+
+
+    
+<hr>
+     <script src="script.js"></script>
+     <script src="search.js"></script>
+</body>
+</html>

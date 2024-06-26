@@ -1,0 +1,59 @@
+
+.song-container figure {
+  width: 30%; /* set a width for each item */
+  margin-bottom: 1rem; /* add some vertical space between items */
+}
+
+
+figure {
+  margin: 10px;
+  text-align: center;
+  max-width: 200px;
+}
+
+
+.ulClass {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.ulClass li {
+  margin: 0 10px;
+} 
+
+.ulClass {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 0.1%;
+}
+
+
+@media screen and (max-width: 768px) {
+  @media (max-width: 768px) {
+    .ulClass {
+      display: block;
+    }
+    
+    .ulClass li {
+      margin-bottom: 20px;
+    }
+  }
+  #footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-color: #f1f3f4;
+    bottom: 0;
+    width: 100%;
+    padding: 10px; /* add some padding to make it look good on mobile */
+    box-sizing: border-box; /* include padding in the width */
+    text-align: center; /* center the content */
+  }
+    
+}
+
+
